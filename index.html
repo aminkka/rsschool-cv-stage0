@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>cv</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="list-item"><a href="#summary">Summary</a></li>
+          <li class="list-item"><a href="#education">Education</a></li>
+          <li class="list-item"><a href="#skills">Skills</a></li>
+          <li class="list-item"><a href="#experience">Experience</a></li>
+          <li class="list-item"><a href="#code-example">Code example</a></li>
+          <li class="list-item"><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="page-main">
+      <section class="section main-info left-side">
+        <div><h1>Olga Pochenkova</h1></div>
+        <div class="profile">Junior Frontend Developer</div>
+        <ul class="contacts-list">
+          <li class="contacts-item">Location: Minsk, Belarus</li>
+          <li class="contacts-item">Phone: +375(29)876-57-50</li>
+          <li class="contacts-item">Email: o.pochenkova@gmail.com</li>
+          <li class="contacts-item"><a href="https://github.com/aminkka" target="blanc">GitHub: @aminkka</a></li>
+        </ul>
+      </section>
+      <div class="section page-photo right-side">
+        <img
+          class="photo"
+          src="assets/img/cv-foto.jpg"
+          alt="Foto"
+          height="250"
+        />
+      </div>
+      <section class="section left-side" id="summary">
+        <hr />
+        <h2 class="section-title">Summary</h2>
+        <p>I graduated from Belarusian State Economic University in 2012. I worked accountant until that time. But now  I want to become a front-end developer. I hope my previous experience and personality traits will be useful for this.
+          I have a great desire to develop, and I am ready to show it in practice. During the upcoming training I want to learn all the "basics" of this profession and become a good at it.          
+        </p>
+        <hr />
+      </section>
+      <section class="section right-side" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="study-list">
+          <li>
+            <a href="http://www.bseu.by/" target="blank"
+              >Belarusian State Economic University, economist,</a
+            >
+            2008 - 2012
+          </li>
+          <li>
+            <a href="https://htmlacademy.ru/study">HTML Academy</a> 2021 - ...
+          </li>
+          <li><a>Rolling Scopes School, 2021 - ...</a></li>
+        </ul>
+        <hr />
+      </section>
+      <section class="section left-side" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="skills-item">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git</li>
+        </ul>
+        <hr />
+      </section>
+      <section class="section right-side" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <p>I do not have experience in this field yet, but I am ready to show a high level of self-organization in order to become a good front-end developer.</p>
+        <p>This is my first <a href="https://github.com/aminkka/rsschool-cv" target="blanck">project</a></p>
+        <hr />
+      </section>
+      <section class="section left-side" id="code-example">
+        <h2 class="section-title">Code example</h2>
+        <pre>
+priority.onclick = function () {
+priority.classList.toggle('is-important');
+if (priority.classList.contains('is-important')) {
+priority.textContent = 'important task';
+} else {
+priority.textContent = 'common task';
+}
+};
+    </pre
+        >
+      </section>
+      <section class="section right-side" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <p>English A1</p>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="github-link">
+        <a href="https://github.com/aminkka" target="blanc">GitHub</a>
+      </div>
+      <div class="year">2022</div>
+      <div class="rs-logo">
+        <a href="https://rs.school/" target="blanc">
+          <img
+            src="./assets/svg/rs_school.svg"
+            width="100"
+            alt="Rolling Scopes School"
+          />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
