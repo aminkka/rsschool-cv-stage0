@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Hammersmith One;
+  src: url("assets/fonts/Hammersmith_One/HammersmithOne-Regular.ttf");
+}
+
+html,
+body {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #fcfcfc;
+}
+
+.page-header {
+  padding: 15px 0;
+  background-color: #9c9c9b;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+
+  list-style-type: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.page-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+  margin: 0;
+  padding: 0 40px;
+  font-family: Hammersmith One, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+pre {
+  font-size: 15px;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.page-photo {
+  display: flex;
+  padding: 20px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.profile {
+  font-size: 25px;
+}
+
+.left-side {
+  background-color: #4c4c4c;
+}
+
+.right-side {
+  background-color: #6e6e6e;
+}
+
+.photo {
+  margin: auto;
+  border-radius: 70%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.section-title {
+  text-transform: uppercase;
+}
+
+.contacts-list {
+  list-style-type: none;
+  font-size: 17px;
+  align-self: flex-end;
+  font-size: 20px;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+  background-color: #9c9c9b;
+}
